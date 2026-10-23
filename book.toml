@@ -1,0 +1,19 @@
+[book]
+title        = "votannic"
+authors      = ["Pierre Marijon"]
+description  = "A tools to generate all possible outcomes in Warhammer 40k system"
+language     = "en"
+multilingual = false
+src          = "website"
+
+[build]
+build-dir      = "public"
+create-missing = false
+
+[output.html]
+smart-punctuation = true
+mathjax-support = true
+git-repository-url = "https://github.com/natir/votannic/"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/natir/votannic/edit/main/docs/{path}"
+site-url = "https://votannic.github.io/votannic"

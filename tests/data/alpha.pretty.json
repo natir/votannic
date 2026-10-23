@@ -1,0 +1,1029 @@
+{
+  "roster": {
+    "costs": [
+      {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 335
+      }
+    ],
+    "costLimits": [
+      {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 1000
+      }
+    ],
+    "forces": [
+      {
+        "selections": [
+          {
+            "selections": [
+              {
+                "id": "wtzepsn",
+                "name": "Incursion (1000 Point limit)",
+                "entryId": "7380-3e40-6ed6-b7cc::d62d-db22-4893-4bc0",
+                "entryGroupId": "7380-3e40-6ed6-b7cc::b960-4789-a3a6-59cb",
+                "number": 1,
+                "type": "upgrade",
+                "from": "group",
+                "group": "Battle Size"
+              }
+            ],
+            "categories": [
+              {
+                "id": "4ac9-fd30-1e3d-b249",
+                "entryId": "4ac9-fd30-1e3d-b249",
+                "name": "Configuration",
+                "primary": true
+              }
+            ],
+            "id": "wslrdnc",
+            "name": "Battle Size",
+            "entryId": "7380-3e40-6ed6-b7cc::564e-fbc6-5266-3ea4",
+            "number": 1,
+            "type": "upgrade",
+            "from": "entry"
+          },
+          {
+            "selections": [
+              {
+                "rules": [
+                  {
+                    "description": "At the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, each time a model in an ^^**Adeptus Custodes Character^^** unit from your army makes an attack that targets that enemy unit, add 1 to the Wound roll.",
+                    "id": "9eb2-2cdd-3df7-a94e",
+                    "name": "Assemblage of Might",
+                    "hidden": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 2
+                  }
+                ],
+                "categories": [
+                  {
+                    "id": "0936-9767-1cc7-52ae",
+                    "name": "Priority Assets",
+                    "entryId": "0936-9767-1cc7-52ae",
+                    "primary": false
+                  }
+                ],
+                "id": "wpp951w",
+                "name": "Auric Champions",
+                "entryId": "9d4f-c524-e432-f877::a36b-bb22-1a15-2a48",
+                "entryGroupId": "9d4f-c524-e432-f877::3fba-26f0-8c24-6ab4",
+                "number": 1,
+                "type": "upgrade",
+                "from": "group",
+                "group": "Detachment"
+              }
+            ],
+            "categories": [
+              {
+                "id": "4ac9-fd30-1e3d-b249",
+                "entryId": "4ac9-fd30-1e3d-b249",
+                "name": "Configuration",
+                "primary": true
+              }
+            ],
+            "id": "woyvm32",
+            "name": "Detachment",
+            "entryId": "9d4f-c524-e432-f877::5218-339c-eb34-9ac0",
+            "number": 1,
+            "type": "upgrade",
+            "from": "entry"
+          },
+          {
+            "selections": [
+              {
+                "id": "wlgbe5j",
+                "name": "Priority Assets",
+                "entryId": "8bc8-6bfe-78bd-2480::9c70-af87-0c32-afcf::081d-bc07-5d4e-ab22",
+                "entryGroupId": "8bc8-6bfe-78bd-2480::9c70-af87-0c32-afcf::eece-6d68-6710-7a7f",
+                "number": 1,
+                "type": "upgrade",
+                "from": "group",
+                "group": "Force Disposition"
+              }
+            ],
+            "categories": [
+              {
+                "id": "4ac9-fd30-1e3d-b249",
+                "entryId": "4ac9-fd30-1e3d-b249",
+                "name": "Configuration",
+                "primary": true
+              }
+            ],
+            "id": "wlzgbe",
+            "name": "Force Disposition",
+            "entryId": "8bc8-6bfe-78bd-2480::2f69-9148-45b4-86a8",
+            "number": 1,
+            "type": "upgrade",
+            "from": "entry"
+          },
+          {
+            "selections": [
+              {
+                "categories": [
+                  {
+                    "id": "4ac9-fd30-1e3d-b249",
+                    "name": "Configuration",
+                    "entryId": "4ac9-fd30-1e3d-b249",
+                    "primary": false
+                  }
+                ],
+                "id": "wwlru3",
+                "name": "Crucible Characters are visible",
+                "entryId": "3458-3cff-ef5f-a7c5::f578-4362-f482-9f54::57cc-822a-1d43-be52",
+                "number": 1,
+                "type": "upgrade",
+                "from": "entry"
+              },
+              {
+                "categories": [
+                  {
+                    "id": "4ac9-fd30-1e3d-b249",
+                    "name": "Configuration",
+                    "entryId": "4ac9-fd30-1e3d-b249",
+                    "primary": false
+                  }
+                ],
+                "id": "wxed64q",
+                "name": "Imperial Agents are visible",
+                "entryId": "9c5b-bd47-c34c-90c0::e08b-2448-5606-fefb",
+                "number": 1,
+                "type": "upgrade",
+                "from": "entry"
+              },
+              {
+                "categories": [
+                  {
+                    "id": "4ac9-fd30-1e3d-b249",
+                    "name": "Configuration",
+                    "entryId": "4ac9-fd30-1e3d-b249",
+                    "primary": false
+                  }
+                ],
+                "id": "wx69tlf",
+                "name": "Imperial Knights are visible",
+                "entryId": "825c-3524-48a1-9328::e82c-6f8c-2b97-a287",
+                "number": 1,
+                "type": "upgrade",
+                "from": "entry"
+              },
+              {
+                "categories": [
+                  {
+                    "id": "4ac9-fd30-1e3d-b249",
+                    "name": "Configuration",
+                    "entryId": "4ac9-fd30-1e3d-b249",
+                    "primary": false
+                  }
+                ],
+                "id": "ww2ob2p",
+                "name": "Legends are visible",
+                "entryId": "3458-3cff-ef5f-a7c5::892f-57ca-d650-7199::9ed-cbf4-bfe5-90bf",
+                "number": 1,
+                "type": "upgrade",
+                "from": "entry"
+              },
+              {
+                "id": "wxvhzcrq",
+                "name": "Titans are visible",
+                "entryId": "4ae1-b041-b19b-5e33::f26b-79db-80e0-3a3b",
+                "number": 1,
+                "type": "upgrade",
+                "from": "entry"
+              },
+              {
+                "id": "ww95de",
+                "name": "Unaligned Forces are visible",
+                "entryId": "3458-3cff-ef5f-a7c5::985-e753-2e94-859::2973-ea51-7f8d-5403",
+                "number": 1,
+                "type": "upgrade",
+                "from": "entry"
+              },
+              {
+                "id": "ww63gq",
+                "name": "Unaligned Fortifications are visible",
+                "entryId": "3458-3cff-ef5f-a7c5::4d37-22c-a45c-64f8::e916-2cf4-a49d-b8c4",
+                "number": 1,
+                "type": "upgrade",
+                "from": "entry"
+              }
+            ],
+            "categories": [
+              {
+                "id": "4ac9-fd30-1e3d-b249",
+                "entryId": "4ac9-fd30-1e3d-b249",
+                "name": "Configuration",
+                "primary": true
+              }
+            ],
+            "id": "wv9c3tp",
+            "name": "Show/Hide Options",
+            "entryId": "3458-3cff-ef5f-a7c5::e8ef-836a-a9d1-901d",
+            "number": 1,
+            "type": "upgrade",
+            "from": "entry"
+          },
+          {
+            "rules": [
+              {
+                "description": "Each time this unit makes an **ingress move** (20.04), if every model in this unit has this ability, it can be set up anywhere on the battlefield that is more than 8\" horizontally from all enemy units, even if that is within your opponent’s deployment zone.",
+                "id": "7cb5-dd6b-dd87-ad3b",
+                "name": "Deep Strike",
+                "hidden": false,
+                "page": 39
+              },
+              {
+                "description": "Before the battle, in the Muster Armies step, for each leader and support unit in your army, you can select one friendly bodyguard unit that unit can lead. That unit will then lead that bodyguard unit for the battle and form an attached unit with it. Unless otherwise stated, each bodyguard unit can only have one leader unit and one support unit attached to it.",
+                "id": "b4dd-3e1f-41cb-218f",
+                "name": "Leader",
+                "hidden": false,
+                "page": 39
+              },
+              {
+                "description": "Each time a unit with this ability is selected to fight, select one of the Ka'tah stances below. Until that unit has finished making its attacks, the selected Stance is active for it and it gains the relevant ability.\n\n■ DACATARAI STANCE\nMelee weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability.\n■ RENDAX STANCE\nMelee weapons equipped by models in this unit have the [LETHAL HITS] ability.",
+                "id": "e348-7090-3aff-ee2c",
+                "name": "Martial Ka'tah",
+                "hidden": false
+              }
+            ],
+            "profiles": [
+              {
+                "characteristics": [
+                  {
+                    "$text": "This model can be attached to the following units: CUSTODIAN GUARD, CUSTODIAN GUARD WITH ADRASITE AND PYRITHITE SPEARS, CUSTODIAN WARDENS, SAGITTARUM CUSTODIANS",
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ],
+                "id": "1a70-8702-4179-b711",
+                "name": "Leader",
+                "hidden": false,
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "from": "entry"
+              },
+              {
+                "characteristics": [
+                  {
+                    "$text": "6\"",
+                    "name": "M",
+                    "typeId": "e703-ecb6-5ce7-aec1"
+                  },
+                  {
+                    "$text": "6",
+                    "name": "T",
+                    "typeId": "d29d-cf75-fc2d-34a4"
+                  },
+                  {
+                    "$text": "2+",
+                    "name": "Sv",
+                    "typeId": "450-a17e-9d5e-29da"
+                  },
+                  {
+                    "$text": "6",
+                    "name": "W",
+                    "typeId": "750a-a2ec-90d3-21fe"
+                  },
+                  {
+                    "$text": "6+",
+                    "name": "LD",
+                    "typeId": "58d2-b879-49c7-43bc"
+                  },
+                  {
+                    "$text": "2",
+                    "name": "OC",
+                    "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "$text": "4+",
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc"
+                  },
+                  {
+                    "$text": "40mm",
+                    "name": "Base",
+                    "typeId": "nr-base-size"
+                  }
+                ],
+                "id": "11f7-2788-9bfd-177b",
+                "name": "Blade Champion",
+                "hidden": false,
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "from": "entry"
+              },
+              {
+                "characteristics": [
+                  {
+                    "$text": "Once per battle, in your Charge phase, this model's unit is eligible to declare a charge in a turn in which it Advanced.",
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ],
+                "id": "be52-2414-896d-55fc",
+                "name": "Martial Inspiration",
+                "hidden": false,
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "from": "entry"
+              },
+              {
+                "characteristics": [
+                  {
+                    "$text": "While this model is leading a unit, you can re-roll Charge rolls made for that unit.",
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ],
+                "id": "31ef-fcd4-c165-a95d",
+                "name": "Swift Onslaught",
+                "hidden": false,
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "from": "entry"
+              }
+            ],
+            "selections": [
+              {
+                "rules": [
+                  {
+                    "description": "While resolving attacks made with one or more **[PRECISION]** weapons, at the start of the Allocation Order step (05.03), if the target unit contains one or more **CHARACTER** models **visible** to one or more of the attacking models, the active player can select one allocation group that contains one of those **visible CHARACTER** models. If they do, until those attacks are resolved, or until that **CHARACTER** group is **destroyed** (whichever happens first), that **CHARACTER** group is the current allocation group.",
+                    "id": "9143-31ae-e0a6-6007",
+                    "name": "Precision",
+                    "hidden": false,
+                    "page": 26
+                  },
+                  {
+                    "description": "This ability always takes the form **[SUSTAINED HITS X]**. Each time an attack made with a **[SUSTAINED HITS]** weapon results in a **critical hit**, that attack results in a number of additional hits on the target as denoted by **X**.\n***Example:** An attack made with a **[SUSTAINED HITS 2]** weapon results in a **critical hit**. That attack therefore hits the target three times (once from the **critical hit**, and twice more from the **[SUSTAINED HITS 2]** ability).*",
+                    "id": "1897-c22c-9597-12b1",
+                    "name": "Sustained Hits",
+                    "hidden": false,
+                    "page": 28
+                  },
+                  {
+                    "description": "Each time an attack made with a **[DEVASTATING WOUNDS]** weapon results in a **critical wound**, the attack sequence for that attack ends and the target unit suffers a number of **mortal wounds** equal to the **D** characteristic of that weapon. These are inflicted after resolving any normal damage inflicted by those attacks. \n**Mortal wounds** inflicted by **[DEVASTATING WOUNDS]** weapons can damage a maximum of one model for each **critical wound**; any remaining **mortal wounds** inflicted by that attack are lost. \n***Example:** An attack made with a **[DEVASTATING WOUNDS]** weapon with a **D** characteristic of 3 results in a **critical wound** against an Intercessor Squad, so inflicts 3 **mortal wounds**. The first 2 **mortal wounds** are sufficient to **destroy** 1 Intercessor model, so the remaining **mortal wound** is lost.*",
+                    "id": "be1e-ac8e-1e2c-3528",
+                    "name": "Devastating Wounds",
+                    "hidden": false,
+                    "page": 28
+                  }
+                ],
+                "profiles": [
+                  {
+                    "characteristics": [
+                      {
+                        "$text": "Melee",
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132"
+                      },
+                      {
+                        "$text": "6",
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110"
+                      },
+                      {
+                        "$text": "2+",
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6"
+                      },
+                      {
+                        "$text": "7",
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba"
+                      },
+                      {
+                        "$text": "-2",
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2"
+                      },
+                      {
+                        "$text": "2",
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "$text": "Precision",
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ],
+                    "id": "7953-e1ea-8b27-b564",
+                    "name": "➤ Vaultswords - Behemor",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "from": "entry"
+                  },
+                  {
+                    "characteristics": [
+                      {
+                        "$text": "Melee",
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132"
+                      },
+                      {
+                        "$text": "9",
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110"
+                      },
+                      {
+                        "$text": "2+",
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6"
+                      },
+                      {
+                        "$text": "5",
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba"
+                      },
+                      {
+                        "$text": "-1",
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "$text": "Sustained Hits 1",
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ],
+                    "id": "d09f-3496-dc55-e6b4",
+                    "name": "➤ Vaultswords - Hurricanis",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "from": "entry"
+                  },
+                  {
+                    "characteristics": [
+                      {
+                        "$text": "Melee",
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132"
+                      },
+                      {
+                        "$text": "5",
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110"
+                      },
+                      {
+                        "$text": "2+",
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6"
+                      },
+                      {
+                        "$text": "6",
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba"
+                      },
+                      {
+                        "$text": "-3",
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2"
+                      },
+                      {
+                        "$text": "3",
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "$text": "Devastating Wounds",
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ],
+                    "id": "7ffc-b8d9-10a7-7e4e",
+                    "name": "➤ Vaultswords - Victus",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "from": "entry"
+                  }
+                ],
+                "categories": [
+                  {
+                    "id": "ccdd-3987-11ed-90cd",
+                    "name": "Melee Weapon",
+                    "entryId": "ccdd-3987-11ed-90cd",
+                    "primary": false
+                  }
+                ],
+                "id": "1rbfmwh",
+                "name": "Vaultswords",
+                "entryId": "473-b72d-a70b-e3aa::f906-23b-58ce-a3df",
+                "entryGroupId": "473-b72d-a70b-e3aa::f610-42a4-d114-3181",
+                "number": 1,
+                "type": "upgrade",
+                "from": "group",
+                "group": "Wargear"
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 110
+              }
+            ],
+            "categories": [
+              {
+                "id": "691e-fed6-a4b4-c66",
+                "name": "Blade Champion",
+                "entryId": "691e-fed6-a4b4-c66",
+                "primary": false
+              },
+              {
+                "id": "cf47-a0d7-7207-29dc",
+                "name": "Infantry",
+                "entryId": "cf47-a0d7-7207-29dc",
+                "primary": false
+              },
+              {
+                "id": "9cfd-1c32-585f-7d5c",
+                "entryId": "9cfd-1c32-585f-7d5c",
+                "name": "Character",
+                "primary": true
+              },
+              {
+                "id": "aff3-d6a3-2a95-9dc",
+                "name": "Imperium",
+                "entryId": "aff3-d6a3-2a95-9dc",
+                "primary": false
+              },
+              {
+                "id": "eea5-aeaf-bbf0-d5ee",
+                "name": "Faction: Adeptus Custodes",
+                "entryId": "eea5-aeaf-bbf0-d5ee",
+                "primary": false
+              },
+              {
+                "id": "1556-9b56-fba6-4370",
+                "name": "Leader",
+                "entryId": "1556-9b56-fba6-4370",
+                "primary": false
+              }
+            ],
+            "id": "1ki1hja",
+            "name": "Blade Champion",
+            "entryId": "473-b72d-a70b-e3aa::48b7-e713-d5b1-f11c",
+            "number": 1,
+            "type": "model",
+            "from": "entry"
+          },
+          {
+            "rules": [
+              {
+                "description": "Each time this unit makes an **ingress move** (20.04), if every model in this unit has this ability, it can be set up anywhere on the battlefield that is more than 8\" horizontally from all enemy units, even if that is within your opponent’s deployment zone.",
+                "id": "7cb5-dd6b-dd87-ad3b",
+                "name": "Deep Strike",
+                "hidden": false,
+                "page": 39
+              },
+              {
+                "description": "Each time a unit with this ability is selected to fight, select one of the Ka'tah stances below. Until that unit has finished making its attacks, the selected Stance is active for it and it gains the relevant ability.\n\n■ DACATARAI STANCE\nMelee weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability.\n■ RENDAX STANCE\nMelee weapons equipped by models in this unit have the [LETHAL HITS] ability.",
+                "id": "e348-7090-3aff-ee2c",
+                "name": "Martial Ka'tah",
+                "hidden": false
+              }
+            ],
+            "profiles": [
+              {
+                "characteristics": [
+                  {
+                    "$text": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1. While this unit is within range of an objective marker you control, you can re-roll the Wound roll instead.",
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ],
+                "id": "07c7-730f-5219-ef8f",
+                "name": "Stand Vigil",
+                "hidden": false,
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "from": "entry"
+              },
+              {
+                "characteristics": [
+                  {
+                    "$text": "Once per battle, in your Shooting phase, after the unit has shot, it can shoot again.",
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ],
+                "id": "9c46-e189-463c-266e",
+                "name": "Sentinel Storm",
+                "hidden": false,
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "from": "entry"
+              }
+            ],
+            "selections": [
+              {
+                "profiles": [
+                  {
+                    "characteristics": [
+                      {
+                        "$text": "6\"",
+                        "name": "M",
+                        "typeId": "e703-ecb6-5ce7-aec1"
+                      },
+                      {
+                        "$text": "6",
+                        "name": "T",
+                        "typeId": "d29d-cf75-fc2d-34a4"
+                      },
+                      {
+                        "$text": "2+",
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da"
+                      },
+                      {
+                        "$text": "3",
+                        "name": "W",
+                        "typeId": "750a-a2ec-90d3-21fe"
+                      },
+                      {
+                        "$text": "6+",
+                        "name": "LD",
+                        "typeId": "58d2-b879-49c7-43bc"
+                      },
+                      {
+                        "$text": "2",
+                        "name": "OC",
+                        "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "$text": "4+",
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "$text": "40mm",
+                        "name": "Base",
+                        "typeId": "nr-base-size"
+                      }
+                    ],
+                    "id": "ffb0-e197-3a20-7515",
+                    "name": "Custodian Guard",
+                    "hidden": false,
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "from": "entry"
+                  }
+                ],
+                "selections": [
+                  {
+                    "rules": [
+                      {
+                        "description": "Units containing one or more models with an **[ASSAULT]** weapon can shoot using **assault shooting** (10.05).",
+                        "id": "fc8a-8c24-bae9-cc1c",
+                        "name": "Assault",
+                        "hidden": false,
+                        "page": 25
+                      }
+                    ],
+                    "profiles": [
+                      {
+                        "characteristics": [
+                          {
+                            "$text": "Melee",
+                            "name": "Range",
+                            "typeId": "914c-b413-91e3-a132"
+                          },
+                          {
+                            "$text": "5",
+                            "name": "A",
+                            "typeId": "2337-daa1-6682-b110"
+                          },
+                          {
+                            "$text": "2+",
+                            "name": "WS",
+                            "typeId": "95d1-95f-45b4-11d6"
+                          },
+                          {
+                            "$text": "7",
+                            "name": "S",
+                            "typeId": "ab33-d393-96ce-ccba"
+                          },
+                          {
+                            "$text": "-2",
+                            "name": "AP",
+                            "typeId": "41a0-1301-112a-e2f2"
+                          },
+                          {
+                            "$text": "2",
+                            "name": "D",
+                            "typeId": "3254-9fe6-d824-513e"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "893f-9000-ccf7-648e"
+                          }
+                        ],
+                        "id": "3665-5bcf-a899-fad",
+                        "name": "Guardian Spear",
+                        "hidden": false,
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "from": "entry"
+                      },
+                      {
+                        "characteristics": [
+                          {
+                            "$text": "24\"",
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "$text": "2",
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "$text": "2+",
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "$text": "5",
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "$text": "-1",
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "$text": "2",
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "$text": "Assault",
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ],
+                        "id": "99cf-4b14-147f-8229",
+                        "name": "Guardian Spear",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "from": "entry"
+                      }
+                    ],
+                    "id": "vgvg3n",
+                    "name": "Guardian Spear",
+                    "entryId": "d0ce-f2d3-358f-4530::e823-5718-f1b6-2702",
+                    "number": 5,
+                    "type": "upgrade",
+                    "from": "entry"
+                  }
+                ],
+                "id": "vgxkegg",
+                "name": "Custodian Guard (Guardian Spear)",
+                "entryId": "d0ce-f2d3-358f-4530::5bbc-172f-4cb8-e6da",
+                "entryGroupId": "d0ce-f2d3-358f-4530::a293-9470-77c1-c8da",
+                "number": 5,
+                "type": "model",
+                "from": "group",
+                "group": "4-5 Custodian Guard"
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 225
+              }
+            ],
+            "categories": [
+              {
+                "id": "c4f-4c5f-3507-e4bc",
+                "name": "Custodian Guard",
+                "entryId": "c4f-4c5f-3507-e4bc",
+                "primary": false
+              },
+              {
+                "id": "cf47-a0d7-7207-29dc",
+                "name": "Infantry",
+                "entryId": "cf47-a0d7-7207-29dc",
+                "primary": false
+              },
+              {
+                "id": "e338-111e-d0c6-b687",
+                "entryId": "e338-111e-d0c6-b687",
+                "name": "Battleline",
+                "primary": true
+              },
+              {
+                "id": "aff3-d6a3-2a95-9dc",
+                "name": "Imperium",
+                "entryId": "aff3-d6a3-2a95-9dc",
+                "primary": false
+              },
+              {
+                "id": "eea5-aeaf-bbf0-d5ee",
+                "name": "Faction: Adeptus Custodes",
+                "entryId": "eea5-aeaf-bbf0-d5ee",
+                "primary": false
+              }
+            ],
+            "id": "vb6qxrr",
+            "name": "Custodian Guard",
+            "entryId": "d0ce-f2d3-358f-4530::91b3-2e1c-e642-d213",
+            "number": 1,
+            "type": "unit",
+            "from": "entry"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Uncategorized",
+            "id": "4ybt7yv",
+            "primary": false,
+            "entryId": "(No Category)"
+          },
+          {
+            "name": "Configuration",
+            "id": "sco1rg",
+            "primary": false,
+            "entryId": "4ac9-fd30-1e3d-b249"
+          },
+          {
+            "name": "Epic Hero",
+            "id": "4zbovd",
+            "primary": false,
+            "entryId": "4f3a-f0f7-6647-348d"
+          },
+          {
+            "name": "Character",
+            "id": "t3g8h5a",
+            "primary": false,
+            "entryId": "9cfd-1c32-585f-7d5c"
+          },
+          {
+            "name": "Battleline",
+            "id": "t3jto5a",
+            "primary": false,
+            "entryId": "e338-111e-d0c6-b687"
+          },
+          {
+            "name": "Infantry",
+            "id": "50hu0lo",
+            "primary": false,
+            "entryId": "cf47-a0d7-7207-29dc"
+          },
+          {
+            "name": "Swarm",
+            "id": "504zau",
+            "primary": false,
+            "entryId": "b00b-5bae-444f-964e"
+          },
+          {
+            "name": "Mounted",
+            "id": "51947u",
+            "primary": false,
+            "entryId": "14a0-40c9-2748-ae6e"
+          },
+          {
+            "name": "Beast",
+            "id": "51ape1e",
+            "primary": false,
+            "entryId": "4c3e-9310-a516-3590"
+          },
+          {
+            "name": "Monster",
+            "id": "51wgrl9",
+            "primary": false,
+            "entryId": "9693-cf84-fe69-37a9"
+          },
+          {
+            "name": "Vehicle",
+            "id": "511bgd",
+            "primary": false,
+            "entryId": "dbd4-63-af05-998"
+          },
+          {
+            "name": "Drone",
+            "id": "51lzyv",
+            "primary": false,
+            "entryId": "2471-e2e0-3f55-d6cb"
+          },
+          {
+            "name": "Dedicated Transport",
+            "id": "51ofb8d",
+            "primary": false,
+            "entryId": "ba07-411c-2832-1f79"
+          },
+          {
+            "name": "Fortification",
+            "id": "52trzv",
+            "primary": false,
+            "entryId": "19d7-9c74-2140-5851"
+          },
+          {
+            "name": "Unit",
+            "id": "52q37sp",
+            "primary": false,
+            "entryId": "1160-70ae-a862-b1a8"
+          },
+          {
+            "name": "Allies: Astra Militarum",
+            "id": "521dvs",
+            "primary": false,
+            "entryId": "8247-35f6-ec2a-7caa"
+          },
+          {
+            "name": "Allies: Chaos Knights",
+            "id": "52z1l5q",
+            "primary": false,
+            "entryId": "8dd6-af11-abd3-55f1"
+          },
+          {
+            "name": "Allies: Heretic Astartes",
+            "id": "52o1x9u",
+            "primary": false,
+            "entryId": "92e6-f82e-0a48-2276"
+          },
+          {
+            "name": "Allies: Imperial Agents",
+            "id": "52f89wd",
+            "primary": false,
+            "entryId": "742f-5727-1bc9-6da5"
+          },
+          {
+            "name": "Allies: Imperial Knights",
+            "id": "52waogi",
+            "primary": false,
+            "entryId": "5e03-9044-273d-e818"
+          },
+          {
+            "name": "Allies: Legiones Daemonica",
+            "id": "52vq6rq",
+            "primary": false,
+            "entryId": "e1ea-71b9-f0ef-d788"
+          },
+          {
+            "name": "Allies: Titanicus Traitoris",
+            "id": "52oj2li",
+            "primary": false,
+            "entryId": "24fa-8caf-cd68-31fb"
+          },
+          {
+            "name": "Allies: Unaligned Forces",
+            "id": "53ekqtu",
+            "primary": false,
+            "entryId": "07d9-ab1c-cf28-0939"
+          },
+          {
+            "name": "Reference",
+            "id": "53pd9vh",
+            "primary": false,
+            "entryId": "eef1-be80-500a-edfc"
+          },
+          {
+            "name": "Allies: Adeptus Titanicus",
+            "id": "53q6a89",
+            "primary": false,
+            "entryId": "9988-6b5e-660e-d973"
+          },
+          {
+            "name": "Illegal Units",
+            "id": "5420ut3",
+            "primary": false,
+            "entryId": "(Illegal Units)"
+          }
+        ],
+        "id": "s8zi4mt",
+        "name": "Army Roster",
+        "entryId": "bb9d-299a-ed60-2d8a",
+        "catalogueId": "1f19-6509-d906-ca10",
+        "catalogueRevision": 18,
+        "catalogueName": "Imperium - Adeptus Custodes"
+      }
+    ],
+    "id": "s0ubpd",
+    "name": "alpha",
+    "battleScribeVersion": 2.03,
+    "generatedBy": "https://newrecruit.eu",
+    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemName": "Warhammer 40,000 11th Edition",
+    "gameSystemRevision": 16,
+    "xmlns": "http://www.battlescribe.net/schema/rosterSchema"
+  }
+}
