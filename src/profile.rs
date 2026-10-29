@@ -10,11 +10,9 @@ use anyhow::Context as _;
 /* module declaration */
 
 /* project use */
+use crate::core::stats::Result;
 use crate::error;
 use crate::newrecruit;
-use crate::roll;
-
-use crate::roll::Roll as _;
 
 /// Define an army as an associative map between name and unit
 #[derive(std::clone::Clone, std::cmp::Eq, std::cmp::PartialEq, std::fmt::Debug)]
@@ -326,7 +324,7 @@ pub struct Weapon {
     pub range: u64,
 
     /// Number of attack trow
-    pub attack: roll::Result,
+    pub attack: Result,
 
     /// Skill shot/close hit threshold
     pub skill: u64,
@@ -338,7 +336,7 @@ pub struct Weapon {
     pub ap: u64,
 
     /// Damage for not save wound
-    pub damage: roll::Result,
+    pub damage: Result,
 }
 
 impl std::convert::TryFrom<&[newrecruit::Characteristic]> for Weapon {
@@ -361,7 +359,7 @@ impl std::convert::TryFrom<&[newrecruit::Characteristic]> for Weapon {
                 }
                 "A" => {
                     if let Some(ref attack) = characteristic.text {
-                        weapon.attack = roll::Result::from(
+                        weapon.attack = Result::from(
                             attack
                                 .parse::<tyche::Expr>()
                                 .with_context(|| format!("Failled to parse attack {}", attack))?,
@@ -402,7 +400,7 @@ impl std::convert::TryFrom<&[newrecruit::Characteristic]> for Weapon {
                 }
                 "D" => {
                     if let Some(ref damage) = characteristic.text {
-                        weapon.damage = roll::Result::from(
+                        weapon.damage = Result::from(
                             damage
                                 .to_lowercase()
                                 .parse::<tyche::Expr>()
@@ -420,8 +418,8 @@ impl std::convert::TryFrom<&[newrecruit::Characteristic]> for Weapon {
 
 impl Weapon {
     #[hotpath::measure]
-    pub fn run(&self, n: u64, body: &Body) -> roll::Result {
-        let full = roll::FullRoll::builder()
+    pub fn run(&self, n: u64, body: &Body) -> Result {
+        let full = crate::roll::FullRoll::builder()
             .weapons_number(n)
             .toughness(body.toughness)
             .save(body.save)
@@ -779,7 +777,7 @@ mod tests {
         assert_eq!(weapon.range, 0);
         assert_eq!(
             weapon.attack,
-            roll::Result::new(
+            Result::new(
                 fraction::Fraction::new(1u64, 2u64),
                 fraction::Fraction::new(35u64, 12u64),
             )
@@ -788,7 +786,7 @@ mod tests {
         assert_eq!(weapon.ap, 2);
         assert_eq!(
             weapon.damage,
-            roll::Result::new(
+            Result::new(
                 fraction::Fraction::new(2u8, 1u8),
                 fraction::Fraction::new(1u64, 1u64),
             )
