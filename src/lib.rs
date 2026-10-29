@@ -9,12 +9,13 @@
 
 /* module declaration */
 pub mod cli;
+pub mod core;
+pub mod dice;
 pub mod error;
+pub mod models;
 pub mod newrecruit;
 pub mod profile;
 pub mod roll;
-pub mod roll_ia;
-pub mod roll_tree;
 pub mod utils;
 
 /* project use */
@@ -32,7 +33,7 @@ pub fn alpha_vs_beta(
             for (_n, weapon) in aunit.weapons() {
                 for (model, _n) in aunit.models.iter() {
                     let tree =
-                        roll_tree::RollTree::from_weapon_body(weapon.clone(), model.body().clone());
+                        crate::roll::tree::RollTree::from_weapon_body(crate::models::Weapon { name: weapon.name.clone(), range: weapon.range, attack: weapon.attack, skill: weapon.skill, strength: weapon.strength, ap: weapon.ap, damage: weapon.damage }, crate::models::Body { name: model.body().name.clone(), toughness: model.body().toughness, save: model.body().save, invuln: model.body().invuln, fnp: model.body().fnp, wounds: model.body().wounds });
 
                     log::info!(
                         "outcome of {:?} to {:?} => {:?}",

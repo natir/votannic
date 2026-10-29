@@ -39,4 +39,3 @@ macro_rules! unreachable {
     };
 }
 
-pub(crate) use unreachable;
